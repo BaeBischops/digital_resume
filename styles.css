@@ -25,6 +25,20 @@ section{
     padding: 1rem;
 }
 
+.heading{
+    text-align: center;
+    margin: 6 6rem;
+    font-size: 4rem;
+    padding: 1rem;
+    border-bottom: .1rem solid rgba(255, 255, 255, 0.267);
+    color: rgb(255, 255, 255);
+}
+
+.heading span{
+    color: rgb(0, 83, 156);
+
+}
+
 header{
     position: fixed;
     top: 0;
@@ -120,4 +134,70 @@ header nav ul a:hover{
     font-size: 2rem;
     color: rgb(237, 237, 237);
     padding: 1rem 0;
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+
+}
+
+.about .row .info{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+}
+
+.about .row .info h3{
+    font-size: 2rem;
+    color: rgb(0, 83, 156);
+    padding: 1rem;
+    font-weight: normal;
+}
+
+.about .row .info h3 span{
+    color: #eee;
+    padding: 0 .5rem;
+}
+
+.about .row .counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about .row .counter .box{
+    width: 20rem;
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.about .row .counter .box span{
+    font-size: 4rem;
+    color: rgb(0, 83, 156);
+}
+
+.about .row .counter .box h3{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+/* media queries */
+@media (max-width: 400px){
+    header{
+        width: 100vh;
+    }
+    .heading{
+        margin: 0 3rem;
+    }
+    .about .row .counter .box{
+        width: 100%;
+    }
+    
 }
