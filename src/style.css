@@ -31,6 +31,16 @@ body {
     text-decoration: none;
 }
 
+.navbar a {
+    display: inline;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 35px;
+    transition: .3s;
+}
+
 /* _______________ media queries _______________ */
 @media only screen and (max-width: 767px) {
     /* Styles for mobile devices (e.g., smartphones) */
@@ -53,3 +63,4 @@ body {
         padding: 20px 10%;
     }
 }
+
