@@ -9,6 +9,7 @@ body {
     background: #000000; 
 }
 
+/* _______________ the header section _______________ */
 .header {
     position: fixed;
     top: 0;
@@ -20,6 +21,14 @@ body {
     align-items: center;
     justify-content: space-between;
     z-index: 100;
+}
+
+.logo {
+    position: relative;
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 /* _______________ media queries _______________ */
