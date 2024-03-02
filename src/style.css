@@ -21,3 +21,11 @@ body {
     justify-content: space-between;
     z-index: 100;
 }
+
+/* _______________ media queries _______________ */
+@media only screen and (max-width: 767px) {
+    /* Styles for mobile devices (e.g., smartphones) */
+    .header {
+        padding: 10px 5%;
+    }
+}
