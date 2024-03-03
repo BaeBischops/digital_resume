@@ -54,10 +54,16 @@ body {
     padding: 70px 10% 0;
 }
 
+.home-content{
+    max-width: 600px;
+}
+
 .home-content h3{
     font-size: 32px;
     font-weight: 700;
 }
+
+
 /* _______________ media queries _______________ */
 @media only screen and (max-width: 767px) {
     /* Styles for mobile devices (e.g., smartphones) */
