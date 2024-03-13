@@ -25,3 +25,22 @@ html{
 .header .container header{
     padding: 30px;
 }
+
+.header .container header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: #940253;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+
+.inicio .contenido-seccion header nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
