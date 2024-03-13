@@ -37,7 +37,7 @@ body {
 
 .header .logo {
     font-size: 3rem;
-    color: var(--white);
+    color: var(--alabaster);
     font-weight: 800;
     cursor: pointer;
     transition: .3s ease;
@@ -45,6 +45,12 @@ body {
 
 .header .logo:hover {
     transform: scale(1.1);
-    text-shadow: 0 0 15px var(--alabaster);
 }
 
+.header .navbar a {
+    font-size: 1.8rem;
+    color: var(--white);
+    margin-left: 4rem;
+    transition: .3s ease;
+    border-bottom: 3px solid transparent;
+}
