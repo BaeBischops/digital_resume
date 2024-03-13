@@ -4,3 +4,24 @@
     margin: 0;
     padding: 0;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("src/assets/image.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+.header .container{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.header .container header{
+    padding: 30px;
+}
