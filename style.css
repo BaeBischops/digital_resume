@@ -9,6 +9,41 @@
     text-decoration: none;
     scroll-behavior: smooth;
     font-family: monospace;
+}
+
+html {
+    font-size: 62.5%;
+    overflow: hidden;
+}
+
+body {
     background: var(--black);
+    color: var(--white);
+}
+
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 3rem 9%;
+    background: var(--slate);
+    backdrop-filter: blur(20px);
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 100;
+}
+
+.header .logo {
+    font-size: 3rem;
+    color: var(--white);
+    font-weight: 800;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.header .logo:hover {
+    transform: scale(1.1);
 }
 
