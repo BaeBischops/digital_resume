@@ -45,5 +45,6 @@ body {
 
 .header .logo:hover {
     transform: scale(1.1);
+    text-shadow: 0 0 15px var(--alabaster);
 }
 
