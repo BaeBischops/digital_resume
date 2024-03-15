@@ -8,5 +8,17 @@ section {
     justify-content: center;
     align-items: center;
     gap: 8rem;
-    
+
 }
+
+.home .circle-one {
+    position: absolute;
+    background: var(--primary);
+    height: 30vw;
+    width: 30vw;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    bottom: 10rem;
+    right: 0;
+    z-index: -1;
+}
+
