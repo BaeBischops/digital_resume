@@ -52,13 +52,20 @@ body {
     transform: scale(1.1);
 }
 
-.header .navbar a {
+.header .navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.header .navbar ul li a {
     font-size: 1.8rem;
     color: var(--white);
     margin-left: 4rem;
     transition: .3s ease;
     border-bottom: 3px solid transparent;
 }
+
+
 
 .header .navbar a:hover,
 .header .navbar a:hover {
