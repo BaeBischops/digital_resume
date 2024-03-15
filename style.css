@@ -22,7 +22,7 @@ html {
 }
 
 body {
-    background: var(--slate);
+    background: var(--bg-color);
     color: var(--white);
 }
 
