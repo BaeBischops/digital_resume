@@ -30,10 +30,9 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 6.rem;
     display: flex;
     padding: 3rem 9%;
-    background: var(--black);
+    background: var(--background);
     backdrop-filter: blur(20px);
     justify-content: space-between;
     align-items: center;
@@ -44,7 +43,7 @@ body {
 .header .logo {
     text-transform: capitalize;
     font-size: 3rem;
-    color: var(--alabaster);
+    color: var(--primary);
     font-weight: 800;
     cursor: pointer;
     transition: .3s ease;
@@ -52,11 +51,7 @@ body {
 
 .header .logo:hover {
     transform: scale(1.1);
-}
-
-.header .navbar {
-    display: flex;
-    list-style: none;
+    text-shadow: 0 0 15px var(--primary);
 }
 
 .header .navbar a {
@@ -76,7 +71,8 @@ body {
 
 .header a:hover ,
 .header a:active {
-    border-bottom: 3px solid var(--alabaster);
+    color: var(--primary);
+    border-bottom: 3px solid var(--primary);
 }
 
 /* the media query */
