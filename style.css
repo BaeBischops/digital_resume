@@ -68,5 +68,4 @@ body {
 .header .navbar ul li a:hover ,
 .header .navbar ul li a:active {
     border-bottom: 3px solid var(--alabaster);
-    color: var(--alabaster);
 }
