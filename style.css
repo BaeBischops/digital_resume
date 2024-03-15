@@ -1,5 +1,6 @@
 @import 'src/css/root.css';
 @import 'src/css/header.css';
+@import 'src/css/home.css';
 
 * {
     margin: 0;
