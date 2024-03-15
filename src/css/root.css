@@ -1,6 +1,6 @@
 :root {
-    --black: #000000;
-    --slate: #26282a;
+    --bg-color: #0f0d0d;
+    --secondary: #171414;
     --white: #ffffff;
-    --alabaster: #edeae0;
+    --primary: #28df99;
 }
