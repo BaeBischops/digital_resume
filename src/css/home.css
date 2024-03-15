@@ -37,3 +37,14 @@ section {
     font-weight: 700;
     line-height: 1.2;
 }
+
+.home .home-img {
+    display: grid;
+    place-items: center;
+}
+
+.home .home-img img {
+    position: relative;
+    width: 32vw;
+    
+}
