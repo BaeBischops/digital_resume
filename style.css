@@ -41,6 +41,7 @@ body {
 }
 
 .header .logo {
+    text-transform: capitalize;
     font-size: 3rem;
     color: var(--alabaster);
     font-weight: 800;
@@ -69,7 +70,7 @@ body {
     font-size: 3.6rem;
     color: var(--white);
     display: none;
-    
+
 }
 
 .header .navbar ul li a:hover ,
