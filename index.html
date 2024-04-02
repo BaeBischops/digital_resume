@@ -1,45 +1,312 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Asive</title>
+    
 </head>
 <body>
-    <header class="header">
-        <a href="#home" class="logo">bekezulu</a>
+    <div class="header">
+        <header>
+            <div class="logo">
+                <a href="#">asive</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" onclick="seleccionar()">home</a></li>
+                    <li><a href="#about" onclick="seleccionar()">about me</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">education</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">portfolio</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
 
-        <i class="bi bi-list" id="menu-icon"></i>
-
-        <nav class="navbar">
-            <a href="#home" class="active">home</a>
-            <a href="#about">about</a>
-            <a href="#services">services</a>
-            <a href="#skills">skills</a>
-            <a href="#education">education</a>
-        </nav>
-    </header>
-
-    <section class="home" id="home">
-        <div class="circle-one"></div>
-        <div class="home-content">
-            <h5>welcome</h5>
-            <h3>hi there</h3>
-            <h1>i am <span>bekezulu</span></h1>
-            <h3>software and ai/ml engineer </h3>
+    <section id="home" class="home">
+        <div class="banner-container">
+            <div class="img-container">
+                <img src="src/img/logo.png" alt="">
+            </div>
+            <h1>asive bekezulu</h1>
+            <h2>sofware engineer - data  engineer</h2>
             <div class="socials">
-                <a href=""><i class="bi bi-linkedin"></i></a>
-                <a href=""><i class="bi bi-medium"></i></a>
-                <a href=""><i class="bi bi-github"></i></a>
-                <a href=""><i class="bi bi-x"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-medium"></i></a>
+                <a href="#"><i class="bi bi-github"></i></a>
             </div>
         </div>
-        <div class="home-img">
-            <img src="src/img/logoasive.png" alt="">
+    </section>
+
+    <section id="about" class="about">
+        <div class="section-container">
+            <h2>hello there</h2>
+            <p><span>Asive Bekezulu.</span> As an ambitious and dynamic entry-level Data Engineer and Software Engineer, I bring a versatile skill set encompassing a breadth of programming languages and technologies. With a passion for innovation and problem-solving, I have completed several self-paced projects, showcasing my proficiency in various domains.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Contacts</h3>
+                    <ul>
+
+                        <li>
+                            <strong>mobile</strong>
+                            +27 81 895 1607
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            asive@bischops.africa
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.bischops.africa
+                        </li>
+                        <li>
+                            <strong>Location</strong>
+                            Durban, South Africa
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="section-container">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C/C++</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trouble Shooting</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Crictical Thinking</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Project Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="section-container">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacition</h3>
+                    <div class="item izq">
+                        <h4>BSc Environmental Science</h4>
+                        <span class="casa">University of KwaZulu-Natal</span>
+                        <span class="fecha">2017 - 2019</span>
+                        <p>
+                            During my time at UKZN, I pursued Environmental Science, specializing in ecological statistics and honing programming skills in R, ArcGIS, and environmental management.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Web Development</h4>
+                        <span class="casa">Codespace</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>
+                            In 2022, I completed a web development bootcamp at Codespace, where I gained proficiency in PHP, CSS, and JavaScript. During the program, I successfully cloned Netflix and developed a booking application.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>AI Programming</h4>
+                        <span class="casa">Udacity</span>
+                        <span class="fecha">2023 - 2023</span>
+                        <p>
+                            I completed a bootcamp at Udacity, where I undertook AI programming in Python. During this program, I developed an image recognition algorithm.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Codespace Student/Intern</span>
+                        <span class="fecha">2022 - 2022</span>
+                        <p>During my time at Codespace, I acquired expertise in web development using JavaScript, React, Vue, PHP, and MySQL. I successfully deployed a Netflix clone using JavaScript and React. I developed a hotel booking app with JavaScript, PHP, and SQL, demonstrating my versatility in web development.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Ricoh South Africa</h4>
+                        <span class="casa">IT Support</span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p>I specialize in copier and printer hardware configuration, firmware and software installation and updates, troubleshooting, and networking. I have extensive experience in conducting firmware and software installations and updates, enhancing security and efficiency. My strong troubleshooting skills have allowed me to swiftly address technical issues, minimizing disruption to workflows. Moreover, I possess in-depth knowledge of networking principles</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio" class="portfolio">
+        <div class="section-container">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="src/img/hotel.png" alt="">
+                    <div class="overlay">
+                        <h3>Hotel Booking App</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="src/img/search.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="src/img/atm.png" alt="">
+                    <div class="overlay">
+                        <h3>Bank API</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="src/img/netflix.png" alt="">
+                    <div class="overlay">
+                        <h3>Netflix Clone</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="src/img/spotify.webp" alt="">
+                    <div class="overlay">
+                        <h3>Spotify Clone</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="src/img/openai.png" alt="">
+                    <div class="overlay">
+                        <h3>Open AI</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#home" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="socials">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
